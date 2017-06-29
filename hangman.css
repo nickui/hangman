@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+
+* {
+	font-family: 'Nova Mono', monospace;
+}
+
+body {
+	background: url('hangman-bg.png') fixed;
+	text-align: center;
+	font-family: 'Nova Mono', monospace;
+}
+input {
+	border: 2px solid #999;
+	font-family: 'Nova Mono', monospace;
+	color: #999;
+}
+
+#underscoreCharacters  {
+	font-family: 'Nova Mono', monospace;
+	font-size: 2.0em;
+}
+
+.score  {
+	font-size: 0.9em;
+	background-color: #ffffff;
+	text-align:left;
+	padding:4px;
+}
+
+#game {
+	width:80%; 
+	margin:1% auto;
+}
+
+#title {
+	color: #ffffff;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-family: 'Nova Mono', monospace;
+	font-size: 60px;
+	background-color: rgba(0, 0, 0, 0.78);
+	padding-bottom: 8px;
+}
+
+h1 {
+	font-family: 'Nova Mono', monospace;
+}
+
+.secondKB {
+	padding:2px;
+}
+
